@@ -3,4 +3,6 @@ This project was created for educational purpose for Mobile Application Developm
 
 The purpose for the app is to provide faster access to the users rather than going through a complex website.
 
-The application was developed from scartched by Nicolas Pizarro
+The application was developed from scartch by Nicolas Pizarro.
+
+App is currently in development
