@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <FrameLayout android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#13C7CE">
+
+
+        <TextView
+            android:id="@+id/earlylearnerTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:fontFamily="sans-serif"
+            android:padding="5dp"
+            android:text="EARLY \nSCIENCE \nLEARNER"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            />
+
+        <ImageButton
+            android:id="@+id/earlylearnerImageButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="205dp"
+            android:src="@drawable/earlylearner"
+
+            />
+
+
+
+    </FrameLayout>
+    <FrameLayout android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#13CE66">
+
+        <ImageButton
+            android:id="@+id/santalandImageButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="205dp"
+            android:src="@drawable/santaland" />
+
+        <TextView
+            android:id="@+id/santalandTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:fontFamily="sans-serif"
+            android:padding="5dp"
+            android:text="SANTA LANDS \nAT \nTHE \nPINK \nPALACE"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"/>
+
+    </FrameLayout>
+    <FrameLayout android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#925D35">
+
+        <ImageButton
+            android:id="@+id/harrypotterImageButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="205dp"
+            android:src="@drawable/harrypotter" />
+
+        <TextView
+            android:id="@+id/harrypotterTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:fontFamily="sans-serif"
+            android:padding="5dp"
+            android:text="HARRY POTTER \nSCAVENGER \nHUNT"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"/>
+
+    </FrameLayout>\
+
+    <FrameLayout android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FFD185">
+
+        <ImageButton
+            android:id="@+id/scienceofbeerImageButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="205dp"
+            android:src="@drawable/sciencebeer" />
+
+        <TextView
+            android:id="@+id/scienceofbeerTextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:fontFamily="sans-serif"
+            android:padding="5dp"
+            android:text="SCIENCE \nOF \nBEER"
+            android:textColor="@android:color/background_light"
+            android:textSize="26sp"
+            android:textStyle="bold|italic"/>
+
+    </FrameLayout>
+
+</LinearLayout>

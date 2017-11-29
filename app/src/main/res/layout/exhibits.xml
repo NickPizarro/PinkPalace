@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <FrameLayout android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#B8977E">
+
+
+        <TextView
+            android:id="@+id/enchantedforestTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:fontFamily="sans-serif"
+            android:padding="5dp"
+            android:text="ENCHANTED \nFOREST"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
+
+        <ImageButton
+            android:id="@+id/enchantedforestImageButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="205dp"
+            android:src="@drawable/enchantedforest"
+
+            />
+
+
+
+    </FrameLayout>
+    <FrameLayout android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#FF9052">
+
+        <ImageButton
+            android:id="@+id/futureImageButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="205dp"
+            android:src="@drawable/palanceoffuture" />
+
+        <TextView
+            android:id="@+id/futureTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:fontFamily="sans-serif"
+            android:padding="5dp"
+            android:text="PINK PALACE \nOF THE \nFUTURE"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"/>
+
+    </FrameLayout>
+    <FrameLayout android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#F95F62">
+
+        <ImageButton
+            android:id="@+id/naturalImageButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="205dp"
+            android:src="@drawable/naturalmidsouth" />
+
+        <TextView
+            android:id="@+id/naturalTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:fontFamily="sans-serif"
+            android:padding="5dp"
+            android:text="NATURAL \nHISTORY \nOF THE \nMIDSOUTH"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"/>
+
+    </FrameLayout>\
+
+    <FrameLayout android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#832BF9">
+
+        <ImageButton
+            android:id="@+id/culturalImageButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="205dp"
+            android:src="@drawable/culturalmidsouth" />
+
+        <TextView
+            android:id="@+id/culturalTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:fontFamily="sans-serif"
+            android:padding="5dp"
+            android:text="CULTURAL \nHISTORY \nOF THE \nMIDSOUTH"
+            android:textColor="@android:color/background_light"
+            android:textSize="26sp"
+            android:textStyle="bold|italic"/>
+
+    </FrameLayout>
+
+</LinearLayout>

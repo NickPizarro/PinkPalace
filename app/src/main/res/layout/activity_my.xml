@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#CC4082">
+
+
+        <TextView
+            android:id="@+id/pinkpalanceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:fontFamily="sans-serif"
+            android:padding="5dp"
+            android:text="PINK \nPALACE"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp"
+            android:textStyle="bold|italic" />
+
+        <ImageButton
+            android:id="@+id/pinkpImageButton"
+            android:layout_width="205dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:background="@null"
+            android:cropToPadding="false"
+            android:defaultFocusHighlightEnabled="false"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pinkpalace" />
+
+
+    </FrameLayout>
+    <FrameLayout android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#DF102B">
+
+        <ImageButton
+            android:id="@+id/ctiImageButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="205dp"
+            android:src="@drawable/cti" />
+
+        <TextView
+            android:id="@+id/ctiTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:fontFamily="sans-serif"
+            android:padding="5dp"
+            android:text="CTI GIANT \n3D THEATRE "
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"/>
+
+    </FrameLayout>
+    <FrameLayout android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#EA9127">
+
+        <ImageButton
+            android:id="@+id/autozoneImageButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="205dp"
+            android:src="@drawable/autozone" />
+
+        <TextView
+            android:id="@+id/autozoneTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:fontFamily="sans-serif"
+            android:padding="5dp"
+            android:text="AUTOZONE \nDOME"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"/>
+
+    </FrameLayout>\
+
+    <FrameLayout android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#0CA986">
+
+        <ImageButton
+            android:id="@+id/natureImageButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="205dp"
+            android:src="@drawable/nature" />
+
+        <TextView
+            android:id="@+id/natureTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:fontFamily="sans-serif"
+            android:padding="5dp"
+            android:text="LIGHTERMAN \nNATURE \nCENTER"
+            android:textColor="@android:color/background_light"
+            android:textSize="26sp"
+            android:textStyle="bold|italic"/>
+
+    </FrameLayout>
+    <FrameLayout android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#7A73BD">
+
+        <ImageButton
+            android:id="@+id/coonImageButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="205dp"
+            android:src="@drawable/coon" />
+
+        <TextView
+            android:id="@+id/coonTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:fontFamily="sans-serif"
+            android:padding="5dp"
+            android:text="COON CREEK \nSCIENCE \nCENTER"
+            android:textColor="@android:color/background_light"
+            android:textSize="26sp"
+            android:textStyle="bold|italic"/>
+
+    </FrameLayout>
+    <FrameLayout android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#009ABE">
+
+        <ImageButton
+            android:id="@+id/historicImageButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="205dp"
+            android:src="@drawable/historic" />
+
+        <TextView
+            android:id="@+id/historicTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left|center_vertical"
+            android:fontFamily="sans-serif"
+            android:padding="5dp"
+            android:text="HISTORIC \nHOUSES"
+            android:textColor="@android:color/background_light"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"/>
+
+    </FrameLayout>
+
+</LinearLayout>
