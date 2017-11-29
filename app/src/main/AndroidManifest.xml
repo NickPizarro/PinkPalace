@@ -22,7 +22,12 @@
             android:name=".ScrollingActivity"
             android:label="@string/title_activity_scrolling"
             android:theme="@style/AlertDialog.AppCompat.Light" />
-        <activity android:name=".socialmedia" />
+
+        <activity android:name=".socialmedia"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+
         <activity
             android:name=".general"
             android:label="@string/title_activity_general"
@@ -65,11 +70,22 @@
             android:label="@string/title_activity_natural"
             android:theme="@style/AppTheme.NoActionBar"
             android:exported="true"/>
+        //Delete the exported line before submitting
 
 
         <activity
             android:name=".pinkpalace"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+
+
+        <activity
+            android:name=".exhibits"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+
+
+
         <activity
             android:name=".ppNavigtation"
             android:label="@string/title_activity_pp_navigtation"
