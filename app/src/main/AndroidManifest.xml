@@ -59,6 +59,14 @@
             android:name=".natural"
             android:label="@string/title_activity_natural"
             android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".events"
+            android:label="@string/title_activity_natural"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="true"/>
+
+
         <activity
             android:name=".pinkpalace"
             android:theme="@style/Theme.AppCompat.NoActionBar" />

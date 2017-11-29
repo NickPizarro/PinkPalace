@@ -28,6 +28,36 @@ public class events extends AppCompatActivity {
 
         });
 
+        //This code is what allows the app to go to the next view when clicked
+        next = findViewById(R.id.santalandImageButton);
+        next.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Intent myIntent = new Intent(view.getContext(), santalanding.class);
+                startActivityForResult(myIntent, 0);
+            }
+
+        });
+
+        //This code is what allows the app to go to the next view when clicked
+        next = findViewById(R.id.harrypotterImageButton);
+        next.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Intent myIntent = new Intent(view.getContext(), harrypotter.class);
+                startActivityForResult(myIntent, 0);
+            }
+
+        });
+
+        //This code is what allows the app to go to the next view when clicked
+        next = findViewById(R.id.scienceofbeerImageButton);
+        next.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View view) {
+                Intent myIntent = new Intent(view.getContext(), beer.class);
+                startActivityForResult(myIntent, 0);
+            }
+
+        });
+
 
     }
 }
