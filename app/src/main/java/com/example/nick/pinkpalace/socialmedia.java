@@ -14,6 +14,10 @@ public class socialmedia extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_socialmedia);
 
+        //Following code adds the action bar with the back button
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setTitle("MEMPHIS MUSEUMS");
+
         ImageButton next = findViewById(R.id.facebookButton);
         next.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
