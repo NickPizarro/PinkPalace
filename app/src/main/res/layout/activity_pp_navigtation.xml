@@ -22,12 +22,12 @@
         android:layout_height="match_parent" >
 
         <android.support.design.widget.NavigationView
-            app:headerLayout="@layout/navheader"
             android:id="@+id/navigation_drawer"
             android:layout_width="250dp"
             android:layout_height="match_parent"
             android:layout_gravity="start"
             android:background="@android:color/darker_gray"
+            app:headerLayout="@layout/navheader"
             app:menu="@menu/pp_navigtation"
 
             tools:layout="@layout/drawer_pp_navigtation" />
