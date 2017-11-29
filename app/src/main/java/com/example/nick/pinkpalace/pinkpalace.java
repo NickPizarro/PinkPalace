@@ -18,7 +18,7 @@ public class pinkpalace extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.pinkpalace);
 
-
+        //This code is what allows the app to go to the next view when clicked
         Button next = findViewById(R.id.exploreButton);
         next.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
