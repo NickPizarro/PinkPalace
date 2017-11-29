@@ -16,7 +16,7 @@
 
    
 
-    <style name="colorPrimaryLight" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="colorPrimaryLight" parent="Theme.AppCompat.Light">
         <item name="colorPrimaryDark">@android:color/background_light</item>
         <item name="colorPrimary">@android:color/background_light</item>
         <item name="colorAccent">@android:color/background_light</item>

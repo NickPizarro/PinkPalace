@@ -11,7 +11,7 @@
         android:theme="@android:style/Theme.Holo.Light.DarkActionBar">
         <activity
             android:name=".MyActivity"
-            android:theme="@style/Theme.AppCompat.CompactMenu">
+            android:theme="@style/Theme.AppCompat.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,7 +21,7 @@
         <activity
             android:name=".ScrollingActivity"
             android:label="@string/title_activity_scrolling"
-            android:theme="@style/AppTheme.NoActionBar" />
+            android:theme="@style/AlertDialog.AppCompat.Light" />
         <activity android:name=".socialmedia" />
         <activity
             android:name=".general"
@@ -65,7 +65,7 @@
         <activity
             android:name=".ppNavigtation"
             android:label="@string/title_activity_pp_navigtation"
-            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"></activity>
     </application>
 
 </manifest>
