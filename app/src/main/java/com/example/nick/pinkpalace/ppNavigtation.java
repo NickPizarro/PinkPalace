@@ -10,6 +10,7 @@ import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
+import android.support.v4.view.GravityCompat;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Gravity;
@@ -37,6 +38,7 @@ public class ppNavigtation extends AppCompatActivity
      * Used to store the last screen title. For use in {@link #restoreActionBar()}.
      */
     private CharSequence mTitle;
+    private NavigationView navigationView;
 
 
 
@@ -49,11 +51,14 @@ public class ppNavigtation extends AppCompatActivity
         //Following code adds the action bar with the back button
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setTitle("MEMPHIS MUSEUMS");
+        NavigationView navigationView = (NavigationView) findViewById(R.id.navigation_drawer);
 
 
 
 
     }
+
+
 
 
 
@@ -66,15 +71,14 @@ public class ppNavigtation extends AppCompatActivity
             case android.R.id.home:
                 // API 5+ solution
                 onBackPressed();
-                return true;
 
-            default:
-                return super.onOptionsItemSelected(item);
+
+            return true;
 
 
 
         }
-    }
+    return true; }
 
 
 

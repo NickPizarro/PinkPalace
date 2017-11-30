@@ -11,15 +11,26 @@
     <group android:checkableBehavior="single">
 
         <item
-            android:id="@+id/events"
+            android:id="@+id/eventsItem"
             android:icon="@drawable/eventsicon"
-            android:title="EVENTS"
+            android:title="EVENTS"/>
 
+            <Button
+                android:id="@+id/exploreButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginBottom="68dp"
+                android:gravity="center"
+                android:text="EXPLORE"
+
+                android:textColor="#000000"
              />
 
-        />
         <item
-            android:id="@+id/exhibits"
+            android:id="@+id/exhibitsItem"
             android:icon="@drawable/exhibitsicon"
             android:title="EXHIBITS" />
         <item
@@ -27,7 +38,7 @@
             android:icon="@drawable/generalicon"
             android:title="GENERAL" />
         <item
-            android:id="@+id/aboutus"
+            android:id="@+id/aboutusItem"
             android:icon="@drawable/ic_info_black_24dp"
             android:title="ABOUT US" />
     </group>
@@ -35,11 +46,11 @@
     <item android:title="Communicate">
         <menu>
             <item
-                android:id="@+id/socialmedia"
+                android:id="@+id/socialmediaItem"
                 android:icon="@drawable/socialmediaicon"
                 android:title="SOCIAL MEDIA" />
             <item
-                android:id="@+id/fullwebsite"
+                android:id="@+id/fullwebsiteItem"
                 android:icon="@drawable/fullwebsiteicon"
                 android:title="FULL WEBSITE" />
 
