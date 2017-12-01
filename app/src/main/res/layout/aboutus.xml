@@ -8,6 +8,7 @@
     tools:context="com.example.nick.pinkpalace.ScrollingActivity"
     tools:showIn="@layout/activity_scrolling">
 
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
