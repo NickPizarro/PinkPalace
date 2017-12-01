@@ -15,6 +15,6 @@
         android:lineSpacingExtra="24sp"
         android:paddingTop="40dp"
         android:textSize="24sp"
-        android:text="@string/future" />
+        android:text="@string/futureDescription" />
 
 </android.support.v4.widget.NestedScrollView>

@@ -7,11 +7,9 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
 
-    <string name="action_settings">Settings</string>
-    <string name="AboutUs">The Pink Palace Museum is one of the largest facilities of its kind in the Southeast. Explore the cultural and natural history of the Mid-South through exciting exhibits, dioramas, and audio-visuals. Trace Memphis\' development from the time of Spanish explorers through the Civil War and the yellow fever epidemics. Learn from the award-winning medical exhibit how health care grew to be Memphis\' largest industry.  See how dinosaurs and fossils dramatically chronicle our ever-changing planet. The Museum also hosts a number of touring exhibits to see and experience throughout the year.  Each year hundreds of thousands of people visit the Memphis Pink Palace Museum.   Mansion Coloring Page  See the Pink Palace Museum featured as part of a \"kid-friendly\" weekend in Memphis!</string>
-    <string name="title_activity_scrolling">Pink Palace</string>
-    <string name="title_activity_socialmedia">socialmedia</string>
-    <string name="general"> Prices: \n\t\t\t\t\t\tGroup pricing available.
+    //Description for the About us and general sections of the app
+    <string name="aboutus">The Pink Palace Museum is one of the largest facilities of its kind in the Southeast. Explore the cultural and natural history of the Mid-South through exciting exhibits, dioramas, and audio-visuals. Trace Memphis\' development from the time of Spanish explorers through the Civil War and the yellow fever epidemics. Learn from the award-winning medical exhibit how health care grew to be Memphis\' largest industry.  See how dinosaurs and fossils dramatically chronicle our ever-changing planet. The Museum also hosts a number of touring exhibits to see and experience throughout the year.  Each year hundreds of thousands of people visit the Memphis Pink Palace Museum.   Mansion Coloring Page  See the Pink Palace Museum featured as part of a \"kid-friendly\" weekend in Memphis!</string>
+    <string name="generalDescrption"> Prices: \n\t\t\t\t\t\tGroup pricing available.
 \n\t\t\t\t\t\tCall 901.636.2362
 
 \nExhibits only
@@ -40,129 +38,30 @@
 \n\nCTI 3D Giant Theater and Planetarium shows are not included.   </string>
 
 
-    <string name="title_activity_socialmediaa">Sign in</string>
 
-    <!-- Strings related to login -->
-    <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password (optional)</string>
-    <string name="action_sign_in">Sign in or register</string>
-    <string name="action_sign_in_short">Sign in</string>
-    <string name="error_invalid_email">This email address is invalid</string>
-    <string name="error_invalid_password">This password is too short</string>
-    <string name="error_incorrect_password">This password is incorrect</string>
-    <string name="error_field_required">This field is required</string>
-    <string name="permission_rationale">"Contacts permissions are needed for providing email
-        completions."
-    </string>
-    <string name="title_activity_general">general</string>
-    <string name="title_activity_earlyscience">earlyscience</string>
-    <string name="large_text">
-        "Material is the metaphor.\n\n"
 
-        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
-        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
-        "technologically advanced and open to imagination and magic.\n"
-        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
-        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
-        "flexibility of the material creates new affordances that supercede those in the physical "
-        "world, without breaking the rules of physics.\n"
-        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
-        "interact, and exist in space and in relation to each other. Realistic lighting shows "
-        "seams, divides space, and indicates moving parts.\n\n"
 
-        "Bold, graphic, intentional.\n\n"
 
-        "The foundational elements of print based design typography, grids, space, scale, color, "
-        "and use of imagery guide visual treatments. These elements do far more than please the "
-        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
-        "imagery, large scale typography, and intentional white space create a bold and graphic "
-        "interface that immerse the user in the experience.\n"
-        "An emphasis on user actions makes core functionality immediately apparent and provides "
-        "waypoints for the user.\n\n"
 
-        "Motion provides meaning.\n\n"
 
-        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
-        "inflection points that initiate motion, transforming the whole design.\n"
-        "All action takes place in a single environment. Objects are presented to the user without "
-        "breaking the continuity of experience even as they transform and reorganize.\n"
-        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
-        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
 
-        "3D world.\n\n"
-
-        "The material environment is a 3D space, which means all objects have x, y, and z "
-        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
-        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
-        "position along the z-axis and has a standard 1dp thickness.\n"
-        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
-        "emulated by manipulating the y-axis.\n\n"
-
-        "Light and shadow.\n\n"
-
-        "Within the material environment, virtual lights illuminate the scene. Key lights create "
-        "directional shadows, while ambient light creates soft shadows from all angles.\n"
-        "Shadows in the material environment are cast by these two light sources. In Android "
-        "development, shadows occur when light sources are blocked by sheets of material at "
-        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
-        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
-
-        "Resting elevation.\n\n"
-
-        "All material objects, regardless of size, have a resting elevation, or default elevation "
-        "that does not change. If an object changes elevation, it should return to its resting "
-        "elevation as soon as possible.\n\n"
-
-        "Component elevations.\n\n"
-
-        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
-        "does not vary from 6dp in one app to 16dp in another app).\n"
-        "Components may have different resting elevations across platforms, depending on the depth "
-        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
-
-        "Responsive elevation and dynamic elevation offsets.\n\n"
-
-        "Some component types have responsive elevation, meaning they change elevation in response "
-        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
-        "changes are consistently implemented using dynamic elevation offsets.\n"
-        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
-        "to the component’s resting state. They ensure that elevation changes are consistent "
-        "across actions and component types. For example, all components that lift on press have "
-        "the same elevation change relative to their resting elevation.\n"
-        "Once the input event is completed or cancelled, the component will return to its resting "
-        "elevation.\n\n"
-
-        "Avoiding elevation interference.\n\n"
-
-        "Components with responsive elevations may encounter other components as they move between "
-        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
-        "through other material, components avoid interfering with one another any number of ways, "
-        "whether on a per component basis or using the entire app layout.\n"
-        "On a component level, components can move or be removed before they cause interference. "
-        "For example, a floating action button (FAB) can disappear or move off screen before a "
-        "user picks up a card, or it can move if a snackbar appears.\n"
-        "On the layout level, design your app layout to minimize opportunities for interference. "
-        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
-        "when a user tries to pick up one of cards.\n\n"
-    </string>
-    <string name="earlylearner"><![CDATA[OCTOBER 24, 31 \n10am & 12 noon  \n\nEarly Science Learners is a new event for you and your little ones!   Spark your child\'s love for learning at an early age. This program is for scientists 2-5 years old.  This month\'s topic is owls.  Every session includes:      A chance to interact with a museum artifact     A story read aloud     A fun activity to get the wiggles out     A craft related to the topic of the month  Member Price is $5 per participant  Non-Member Price is $6 per participant  All children must be chaperoned!  Call 901.636.2362 for tickets starting October 2.  We are offering this same program each week throughout October.   Stay tuned for new programs and new topics in the future!]]></string>
-    <string name="title_activity_harrypotter">harrypotter</string>
-    <string name="harrypotterTextView"><![CDATA[Harry Potter movies on our Giant Screen!  \nIt\'s off to Hogwarts! Grab your broom, Thestral, Hippogriff or hop in your flying Ford Anglia so you don\'t miss eight weeks of the original Harry Potter series, weekends in September and October. Relive the magic like never before, see them all on our Giant Screen!  October 21 & 22:  Harry Potter and the Deathly Hallows part 1  October 28 & 29:  Harry Potter and the Deathly Hallows part 2  Special Harry Potter Scavenger Hunt and Movie combo Saturday, October 28! You won\'t believe how many of Harry\'s things ended up here at the Pink Palace after his Hogwarts days, over 30 items have been hidden in our collection this whole time!]]></string>
-    <string name="title_activity_santalanding">santalanding</string>
-    <string name="santalanding">Santa Lands at 9am Saturday, November 18  \n\nSanta\'s landing and other lawn activities are free to the public, but an admission ticket is required for the Enchanted Forest.  Santa arrives by helicopter to open the Enchanted Forest Festival of Trees, a fundraiser for Le Bonheur Children’s Hospital! With his epic dash around the globe a mere month away, Santa Claus needs to let his eight tiny reindeer get their rest! While you wait for Santa, have fun with Rocky Redbird and the Art Project! Metro Eats from the Pink Palace will be on hand, selling coffee, hot chocolate and more. Plus Le Bonheur has donut holes for the kids.  Swooping in from the North Pole, Santa’s chopper will land on the lawn of the Pink Palace Mansion, where the young and young-at-heart will greet the jolly old elf with cheers of joy! Once the chopper rotors stop spinning, join in as Santa and the Memphis Second Line Jazz Band lead a parade inside the Pink Palace Museum, officially opening the Enchanted Forest Festival of Trees. Stop at Pink Palace box office to get tickets, then visit Santa in the Enchanted Forest —where even more magic awaits!mething here</string>
-    <string name="title_activity_beer">beer</string>
-    <string name="beer">Friday, January 12, 2018 \n6:00-9:30 pm   \nTickets will go on sale mid-October.   \nPrices: \nDesignated Driver: $35  \nMember Ticket: $50  \nNon-Member Ticket: $55  \nMember VIP Ticket: $60  \nNon-Member VIP Ticket: $65  \n\nIt’s the 5th Annual Science of Beer! Every guest will feel like a VIP as we celebrate our 5-year Anniversary with an exclusive beer experience.   \nEat!   The best local restaurants will be here to serve you the tastiest beer food this side of the Mississippi!  Drink!   Excite your taste buds with beer samples from local professional and home brewers. Sample beers from your favorite breweries across the South.   Learn!   Talk shop with brewers while you sample their wares then head to one of our lectures to perfect your knowledge on all things beer.  Returning Favorites:      Pretzel necklaces     Beer goggle sports     Giant Jenga     Beer-themed Crafts     Professor-lead Experiments (sponsored by: Diversified Trust)  Exclusive New Additions:      Mini Beer Memorabilia Museum     Scavenger Hunt     Prize Pull     Silent Auction     More beer, more food, more fun to be announced soon!</string>
-    <string name="title_activity_enchantedforest">enchantedforest</string>
-    <string name="enchantedforest"><![CDATA[The Enchanted Forest  \nOpen November 18 - December 31, 2017  \nAdmission to the Enchanted Forest does not include regular Museum admission. \nTicket prices: \nAdults: $6 \nChildren/Seniors: $5  \nThe Enchanted Forest  The elves, penguins, bears and charming holiday characters in The Enchanted Forest Festival of Trees are getting ready for you and your whole family this holiday season.  This is a 65-year-old Memphis tradition.  The Enchanted Forest is a magical experience full of delightful animated characters.  Elves are busy making toys while penguins, bears and mice play in the snow.  A model train winds its way around a miniature snow-covered village while the nearby Gingerbread Village smells delightful!  Thousands of twinkling lights shine from dozens of beautifully-decorated trees lining the mezzanine.  Area businesses, churches and other volunteers have decorated the trees, which are sponsored by local corporations and individuals, and you’re sure to find a favorite.  Festival of Trees Beautiful trees decorated by professional designers, individuals and local organizations sparkle on the mezzanine.  Gingerbread Village A snow-covered village of scrumptious creations awaits you! From cozy cottages to majestic mansions, all are designed by local chefs, businesses, individuals and groups.  Model Train and Christmas Village A miniature train twists and turns throughout a snow-covered village, inspiring the imagination of children and adults alike.  Pictures with Santa  November 18  –  December 24 Photo packages: $10 – $60 Photos courtesy of J&B Childress Portrait Art www.jandbchildress.com  Enchanted Forest Fridays Dec. 1, 8, 15 & 22 9am to 9pm The Enchanted Forest is even more magical at night! Visit when the sun goes down and see how the trees sparkle and shine!hing here]]></string>
-    <string name="title_activity_cultural">cultural</string>
-    <string name="cultural">The First Americans, butcher marks on a mastodon bone tell of a successful Paleolithic hunt. An extraordinary collection of finely crafted tools and Native American pottery are remnants of a complex civilization on the Mississippi. Mystical hunchback figures, grim disembodied human heads, and whimsical animal effigies, all carefully buried with the dead, reflect the spiritual beliefs of this mysterious culture.  The History of Memphis, 1800-1900 tells the story of Memphis from its birth as a frontier river town to its emergence as a vital Victorian Era city. Slavery and emancipation, disease and medicine, privilege and persecution are all brought to life through objects of both everyday life and extraordinary events. See Memphis housing from a reconstructed frontier cabin to an opulent Victorian music room  An horrific battle diorama forms the centerpiece of the Civil War gallery.  Thomas Harwell’s “mummy casket,” in its darkened alcove, represents an archeological mystery solved, while a mail coach, private buggy and public omnibus evoke the era of horse-drawn transportation.</string>
-    <string name="title_activity_future">future</string>
-    <string name="future">Exhibits will be updated and highly interactive.  The themes are:  Physical Sciences and Geology Life Sciences, including fitness, nutrition, health and wellness Regional and Cultural History Each area can be entered separately or the visitor can move through them in order.  Pink Palace Treasures:  The Piggly Wiggly Store Clyde Parke Circus Shrunken Head…etc. These items will be moved to a place of honor in the Mansion:   The second floor of the Mansion’s East Wing will once again be open to the public  after being empty for many years, and will house the Clyde Parke Circus.  In the meantime, please enjoy the rest of our cultural and natural history exhibits,  as well as our temporary exhibits, CTI 3D Giant Theater, AutoZone Dome  at the Sharpe Planetarium, the Bella Caffe, and our Museum Stores, all open for your visit.</string>
-    <string name="title_activity_natural">natural</string>
-    <string name="natural">The first floor of the museum describes the natural history of the Mid-south.  This area, within a 200 mile area radius of Memphis, encompasses several major  environments including the channels and oxbow lakes of the Mississippi River  and its tributaries, their associated floodplains; the sand hills of western Tennessee  and northern Mississippi, and the nearby highlands of the Ouachita and Ozark  Mountains in Arkansas and the Highland Rim of Central Tennessee.   The exhibits open with “Adaptations”, a large collection of skulls and skeletons  of all types of animals. The display explains how the placement of teeth, horns  and antlers, and eyes as well as body shapes show how animals have evolved  to adapt to their environment.</string>
-    <string name="title_activity_meu">MeuActivity</string>
-    <string name="section_format">Hello World from section: %1$d</string>
-    <string name="title_activity_settings">Settings</string>
+    //This section is for the description and titles, of the Events and Exhibits
+    <string name="title_earlyScience">earlyscience</string>
+    <string name="earlylearnerDescription"><![CDATA[OCTOBER 24, 31 \n10am & 12 noon  \n\nEarly Science Learners is a new event for you and your little ones!   Spark your child\'s love for learning at an early age. This program is for scientists 2-5 years old.  This month\'s topic is owls.  Every session includes:      A chance to interact with a museum artifact     A story read aloud     A fun activity to get the wiggles out     A craft related to the topic of the month  Member Price is $5 per participant  Non-Member Price is $6 per participant  All children must be chaperoned!  Call 901.636.2362 for tickets starting October 2.  We are offering this same program each week throughout October.   Stay tuned for new programs and new topics in the future!]]></string>
+    <string name="title_harrypotter">harrypotter</string>
+    <string name="harrypotterDescription"><![CDATA[Harry Potter movies on our Giant Screen!  \nIt\'s off to Hogwarts! Grab your broom, Thestral, Hippogriff or hop in your flying Ford Anglia so you don\'t miss eight weeks of the original Harry Potter series, weekends in September and October. Relive the magic like never before, see them all on our Giant Screen!  October 21 & 22:  Harry Potter and the Deathly Hallows part 1  October 28 & 29:  Harry Potter and the Deathly Hallows part 2  Special Harry Potter Scavenger Hunt and Movie combo Saturday, October 28! You won\'t believe how many of Harry\'s things ended up here at the Pink Palace after his Hogwarts days, over 30 items have been hidden in our collection this whole time!]]></string>
+    <string name="title_santalanding">santalanding</string>
+    <string name="santalandingDescription">Santa Lands at 9am Saturday, November 18  \n\nSanta\'s landing and other lawn activities are free to the public, but an admission ticket is required for the Enchanted Forest.  Santa arrives by helicopter to open the Enchanted Forest Festival of Trees, a fundraiser for Le Bonheur Children’s Hospital! With his epic dash around the globe a mere month away, Santa Claus needs to let his eight tiny reindeer get their rest! While you wait for Santa, have fun with Rocky Redbird and the Art Project! Metro Eats from the Pink Palace will be on hand, selling coffee, hot chocolate and more. Plus Le Bonheur has donut holes for the kids.  Swooping in from the North Pole, Santa’s chopper will land on the lawn of the Pink Palace Mansion, where the young and young-at-heart will greet the jolly old elf with cheers of joy! Once the chopper rotors stop spinning, join in as Santa and the Memphis Second Line Jazz Band lead a parade inside the Pink Palace Museum, officially opening the Enchanted Forest Festival of Trees. Stop at Pink Palace box office to get tickets, then visit Santa in the Enchanted Forest —where even more magic awaits!mething here</string>
+    <string name="title_beer">beer</string>
+    <string name="beerDescription">Friday, January 12, 2018 \n6:00-9:30 pm   \nTickets will go on sale mid-October.   \nPrices: \nDesignated Driver: $35  \nMember Ticket: $50  \nNon-Member Ticket: $55  \nMember VIP Ticket: $60  \nNon-Member VIP Ticket: $65  \n\nIt’s the 5th Annual Science of Beer! Every guest will feel like a VIP as we celebrate our 5-year Anniversary with an exclusive beer experience.   \nEat!   The best local restaurants will be here to serve you the tastiest beer food this side of the Mississippi!  Drink!   Excite your taste buds with beer samples from local professional and home brewers. Sample beers from your favorite breweries across the South.   Learn!   Talk shop with brewers while you sample their wares then head to one of our lectures to perfect your knowledge on all things beer.  Returning Favorites:      Pretzel necklaces     Beer goggle sports     Giant Jenga     Beer-themed Crafts     Professor-lead Experiments (sponsored by: Diversified Trust)  Exclusive New Additions:      Mini Beer Memorabilia Museum     Scavenger Hunt     Prize Pull     Silent Auction     More beer, more food, more fun to be announced soon!</string>
+    <string name="title_enchantedforest">enchantedforest</string>
+    <string name="enchantedforestDescription"><![CDATA[The Enchanted Forest  \nOpen November 18 - December 31, 2017  \nAdmission to the Enchanted Forest does not include regular Museum admission. \nTicket prices: \nAdults: $6 \nChildren/Seniors: $5  \nThe Enchanted Forest  The elves, penguins, bears and charming holiday characters in The Enchanted Forest Festival of Trees are getting ready for you and your whole family this holiday season.  This is a 65-year-old Memphis tradition.  The Enchanted Forest is a magical experience full of delightful animated characters.  Elves are busy making toys while penguins, bears and mice play in the snow.  A model train winds its way around a miniature snow-covered village while the nearby Gingerbread Village smells delightful!  Thousands of twinkling lights shine from dozens of beautifully-decorated trees lining the mezzanine.  Area businesses, churches and other volunteers have decorated the trees, which are sponsored by local corporations and individuals, and you’re sure to find a favorite.  Festival of Trees Beautiful trees decorated by professional designers, individuals and local organizations sparkle on the mezzanine.  Gingerbread Village A snow-covered village of scrumptious creations awaits you! From cozy cottages to majestic mansions, all are designed by local chefs, businesses, individuals and groups.  Model Train and Christmas Village A miniature train twists and turns throughout a snow-covered village, inspiring the imagination of children and adults alike.  Pictures with Santa  November 18  –  December 24 Photo packages: $10 – $60 Photos courtesy of J&B Childress Portrait Art www.jandbchildress.com  Enchanted Forest Fridays Dec. 1, 8, 15 & 22 9am to 9pm The Enchanted Forest is even more magical at night! Visit when the sun goes down and see how the trees sparkle and shine!hing here]]></string>
+    <string name="title_cultural">cultural</string>
+    <string name="culturalDescription">The First Americans, butcher marks on a mastodon bone tell of a successful Paleolithic hunt. An extraordinary collection of finely crafted tools and Native American pottery are remnants of a complex civilization on the Mississippi. Mystical hunchback figures, grim disembodied human heads, and whimsical animal effigies, all carefully buried with the dead, reflect the spiritual beliefs of this mysterious culture.  The History of Memphis, 1800-1900 tells the story of Memphis from its birth as a frontier river town to its emergence as a vital Victorian Era city. Slavery and emancipation, disease and medicine, privilege and persecution are all brought to life through objects of both everyday life and extraordinary events. See Memphis housing from a reconstructed frontier cabin to an opulent Victorian music room  An horrific battle diorama forms the centerpiece of the Civil War gallery.  Thomas Harwell’s “mummy casket,” in its darkened alcove, represents an archeological mystery solved, while a mail coach, private buggy and public omnibus evoke the era of horse-drawn transportation.</string>
+    <string name="title_future">future</string>
+    <string name="futureDescription">Exhibits will be updated and highly interactive.  The themes are:  Physical Sciences and Geology Life Sciences, including fitness, nutrition, health and wellness Regional and Cultural History Each area can be entered separately or the visitor can move through them in order.  Pink Palace Treasures:  The Piggly Wiggly Store Clyde Parke Circus Shrunken Head…etc. These items will be moved to a place of honor in the Mansion:   The second floor of the Mansion’s East Wing will once again be open to the public  after being empty for many years, and will house the Clyde Parke Circus.  In the meantime, please enjoy the rest of our cultural and natural history exhibits,  as well as our temporary exhibits, CTI 3D Giant Theater, AutoZone Dome  at the Sharpe Planetarium, the Bella Caffe, and our Museum Stores, all open for your visit.</string>
+    <string name="title_natural">natural</string>
+    <string name="naturalDescription">The first floor of the museum describes the natural history of the Mid-south.  This area, within a 200 mile area radius of Memphis, encompasses several major  environments including the channels and oxbow lakes of the Mississippi River  and its tributaries, their associated floodplains; the sand hills of western Tennessee  and northern Mississippi, and the nearby highlands of the Ouachita and Ozark  Mountains in Arkansas and the Highland Rim of Central Tennessee.   The exhibits open with “Adaptations”, a large collection of skulls and skeletons  of all types of animals. The display explains how the placement of teeth, horns  and antlers, and eyes as well as body shapes show how animals have evolved  to adapt to their environment.</string>
 
 
 
@@ -170,97 +69,18 @@
     <string name="Events">Events</string>
     <string name="Exhibits">Exhibits</string>
     <string name="General">General</string>
-    <string name="aboutUs">About Us</string>
+    <string name="AboutUs">About Us</string>
     <string name="SocialMedia">Social Media</string>
+    <string name="title_activity_scrolling">Pink Palace</string>
 
-    <!-- Strings related to Settings -->
 
-    <!-- Example General settings -->
-    <string name="pref_header_general">General</string>
 
-    <string name="pref_title_social_recommendations">Enable social recommendations</string>
-    <string name="pref_description_social_recommendations">Recommendations for people to contact
-        based on your message history
-    </string>
-
-    <string name="pref_title_display_name">Display name</string>
-    <string name="pref_default_display_name">John Smith</string>
-
-    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
-    <string-array name="pref_example_list_titles">
-        <item>Always</item>
-        <item>When possible</item>
-        <item>Never</item>
-    </string-array>
-    <string-array name="pref_example_list_values">
-        <item>1</item>
-        <item>0</item>
-        <item>-1</item>
-    </string-array>
-
-    <!-- Example settings for Data & Sync -->
-    <string name="pref_header_data_sync">Data &amp; sync</string>
-
-    <string name="pref_title_sync_frequency">Sync frequency</string>
-    <string-array name="pref_sync_frequency_titles">
-        <item>15 minutes</item>
-        <item>30 minutes</item>
-        <item>1 hour</item>
-        <item>3 hours</item>
-        <item>6 hours</item>
-        <item>Never</item>
-    </string-array>
-    <string-array name="pref_sync_frequency_values">
-        <item>15</item>
-        <item>30</item>
-        <item>60</item>
-        <item>180</item>
-        <item>360</item>
-        <item>-1</item>
-    </string-array>
-
-    <string-array name="list_preference_entries">
-        <item>Entry 1</item>
-        <item>Entry 2</item>
-        <item>Entry 3</item>
-    </string-array>
-
-    <string-array name="list_preference_entry_values">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
-
-    <string-array name="multi_select_list_preference_default_value" />
-
-    <string name="pref_title_system_sync_settings">System sync settings</string>
-
-    <!-- Example settings for Notifications -->
-    <string name="pref_header_notifications">Notifications</string>
-
-    <string name="pref_title_new_message_notifications">New message notifications</string>
-
-    <string name="pref_title_ringtone">Ringtone</string>
-    <string name="pref_ringtone_silent">Silent</string>
-
-    <string name="pref_title_vibrate">Vibrate</string>
-    <string name="title_activity_test">test</string>
-
-    <string name="title_section1">Section 1</string>
-    <string name="title_section2">Section 2</string>
-    <string name="title_section3">Section 3</string>
-
-    <string name="action_example">Example action</string>
-    <string name="title_activity_pp_navigtation">ppNavigtation</string>
-    <string name="defauasdf">EVENTS
-            android:textColor="#000000"
-            </string>
+   //This line of code is optional of the settings on the actionbar
+    <string name="settings">Settings</string>
 
 
 
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment_one">Hello blank fragment ONE</string>
-    <string name="hello_blank_fragment_two">Hello blank fragment TWO</string>
+
 
 </resources>

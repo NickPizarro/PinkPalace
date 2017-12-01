@@ -17,6 +17,6 @@
         android:lineSpacingExtra="24sp"
         android:paddingTop="40dp"
         android:textSize="24sp"
-        android:text="@string/cultural" />
+        android:text="@string/culturalDescription" />
 
 </android.support.v4.widget.NestedScrollView>

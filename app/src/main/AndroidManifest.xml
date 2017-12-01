@@ -35,35 +35,35 @@
             />
         <activity
             android:name=".earlyscience"
-            android:label="@string/title_activity_earlyscience"
+            android:label="@string/title_earlyScience"
             android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
         <activity
             android:name=".harrypotter"
-            android:label="@string/title_activity_harrypotter"
+            android:label="@string/title_harrypotter"
             android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
         <activity
             android:name=".santalanding"
-            android:label="@string/title_activity_santalanding"
+            android:label="@string/title_santalanding"
             android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
         <activity
             android:name=".beer"
-            android:label="@string/title_activity_beer"
+            android:label="@string/title_beer"
             android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
         <activity
             android:name=".enchantedforest"
-            android:label="@string/title_activity_enchantedforest"
+            android:label="@string/title_enchantedforest"
             android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
         <activity
             android:name=".cultural"
-            android:label="@string/title_activity_cultural"
+            android:label="@string/title_cultural"
             android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
         <activity
             android:name=".future"
-            android:label="@string/title_activity_future"
+            android:label="@string/title_future"
             android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
         <activity
             android:name=".natural"
-            android:label="@string/title_activity_natural"
+            android:label="@string/title_natural"
             android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
 
         <activity
@@ -83,7 +83,6 @@
 
         <activity
             android:name=".exhibits"
-            android:exported="true"
             android:label="@string/Exhibits"
             android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
 
