@@ -6,8 +6,9 @@
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
+
     <string name="action_settings">Settings</string>
-    <string name="aboutus">The Pink Palace Museum is one of the largest facilities of its kind in the Southeast. Explore the cultural and natural history of the Mid-South through exciting exhibits, dioramas, and audio-visuals. Trace Memphis\' development from the time of Spanish explorers through the Civil War and the yellow fever epidemics. Learn from the award-winning medical exhibit how health care grew to be Memphis\' largest industry.  See how dinosaurs and fossils dramatically chronicle our ever-changing planet. The Museum also hosts a number of touring exhibits to see and experience throughout the year.  Each year hundreds of thousands of people visit the Memphis Pink Palace Museum.   Mansion Coloring Page  See the Pink Palace Museum featured as part of a \"kid-friendly\" weekend in Memphis!</string>
+    <string name="AboutUs">The Pink Palace Museum is one of the largest facilities of its kind in the Southeast. Explore the cultural and natural history of the Mid-South through exciting exhibits, dioramas, and audio-visuals. Trace Memphis\' development from the time of Spanish explorers through the Civil War and the yellow fever epidemics. Learn from the award-winning medical exhibit how health care grew to be Memphis\' largest industry.  See how dinosaurs and fossils dramatically chronicle our ever-changing planet. The Museum also hosts a number of touring exhibits to see and experience throughout the year.  Each year hundreds of thousands of people visit the Memphis Pink Palace Museum.   Mansion Coloring Page  See the Pink Palace Museum featured as part of a \"kid-friendly\" weekend in Memphis!</string>
     <string name="title_activity_scrolling">Pink Palace</string>
     <string name="title_activity_socialmedia">socialmedia</string>
     <string name="general"> Prices: \n\t\t\t\t\t\tGroup pricing available.
@@ -163,6 +164,15 @@
     <string name="section_format">Hello World from section: %1$d</string>
     <string name="title_activity_settings">Settings</string>
 
+
+
+    //String name for actionbars
+    <string name="Events">Events</string>
+    <string name="Exhibits">Exhibits</string>
+    <string name="General">General</string>
+    <string name="aboutUs">About Us</string>
+    <string name="SocialMedia">Social Media</string>
+
     <!-- Strings related to Settings -->
 
     <!-- Example General settings -->
@@ -242,7 +252,7 @@
 
     <string name="action_example">Example action</string>
     <string name="title_activity_pp_navigtation">ppNavigtation</string>
-    <string name="events">EVENTS
+    <string name="defauasdf">EVENTS
             android:textColor="#000000"
             </string>
 

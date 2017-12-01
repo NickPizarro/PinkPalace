@@ -28,6 +28,7 @@ public class ppNavigtation extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
 
 
+
         if (savedInstanceState == null) {
             Fragment fragment = null;
             Class fragmentClass = null;
@@ -64,12 +65,14 @@ public class ppNavigtation extends AppCompatActivity
         }
     }
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
+
+    //todo: Optional, to provide a three dots menu for additional information, again, this is optional.  The following line of code adds function to that button
+    //@Override
+    //public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
+      //  getMenuInflater().inflate(R.menu.main, menu);
+       // return true;
+    //}
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {

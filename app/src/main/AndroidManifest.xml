@@ -25,13 +25,14 @@
 
         <activity android:name=".socialmedia"
             android:exported="true"
+            android:label = "@string/SocialMedia"
             android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
 
 
         <activity
             android:name=".general"
-            android:label="@string/title_activity_general"
-            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+            android:label="@string/General"
+            />
         <activity
             android:name=".earlyscience"
             android:label="@string/title_activity_earlyscience"
@@ -67,9 +68,10 @@
 
         <activity
             android:name=".events"
-            android:label="@string/title_activity_natural"
+            android:label="@string/Events"
             android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
-            android:exported="true"/>
+            android:exported="true"
+            />
         //Delete the exported line before submitting
 
 
@@ -82,13 +84,13 @@
         <activity
             android:name=".exhibits"
             android:exported="true"
+            android:label="@string/Exhibits"
             android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
 
 
 
         <activity
             android:name=".ppNavigtation"
-            android:label="@string/title_activity_pp_navigtation"
             android:theme="@style/Theme.AppCompat.Light.DarkActionBar"></activity>
     </application>
 

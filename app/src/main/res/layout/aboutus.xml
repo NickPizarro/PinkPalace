@@ -15,7 +15,7 @@
         android:layout_margin="@dimen/text_margin"
         android:lineSpacingExtra="24sp"
         android:paddingTop="40dp"
-        android:text="@string/aboutus"
+        android:text="@string/aboutUs"
         android:textSize="24sp" />
 
 </android.support.v4.widget.NestedScrollView>
