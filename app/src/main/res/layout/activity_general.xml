@@ -1,21 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.nick.pinkpalace.general">
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.nick.pinkpalace.ScrollingActivity"
 
-    <android.support.design.widget.AppBarLayout
-        android:id="@+id/app_bar"
+   >
+
+
+
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="@dimen/app_bar_height"
-        android:background="@drawable/pinkpalacelogo"
-        android:fitsSystemWindows="true"
-        android:theme="@style/AppTheme.AppBarOverlay">
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:lineSpacingExtra="24sp"
+        android:paddingTop="40dp"
+        android:text="@string/generalDescrption"
+        android:textSize="24sp" />
 
-    </android.support.design.widget.AppBarLayout>
-
-    <include layout="@layout/content_general" />
-
-</android.support.design.widget.CoordinatorLayout>
+</android.support.v4.widget.NestedScrollView>
