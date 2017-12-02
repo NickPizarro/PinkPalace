@@ -69,9 +69,17 @@ public class FragmentFive extends Fragment {
         View view = inflater.inflate(R.layout.activity_socialmedia, container, false);
 
 
-        //This is what allows the view to work
-        ImageButton btnOpen = (ImageButton) view.findViewById(R.id.facebookButton);
-        btnOpen.setOnClickListener(new View.OnClickListener() {
+        //The following line of code is what allows the icons to work in the views
+        ImageButton btnOpen1 = (ImageButton) view.findViewById(R.id.facebookButton);
+        ImageButton btnOpen2 = (ImageButton) view.findViewById(R.id.twitterButton);
+        ImageButton btnOpen3 = (ImageButton) view.findViewById(R.id.linkedinButton);
+        ImageButton btnOpen4 = (ImageButton) view.findViewById(R.id.youtubeButton);
+        ImageButton btnOpen5 = (ImageButton) view.findViewById(R.id.instagramButton);
+
+
+
+
+        btnOpen1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String url = "https://www.facebook.com/memphismuseums/";
@@ -80,6 +88,67 @@ public class FragmentFive extends Fragment {
                 i.setData(Uri.parse(url));
                 startActivity(i);
             }
+
+        });
+
+        btnOpen2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String url = "https://twitter.com/memphismuseums?lang=en";
+
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(url));
+                startActivity(i);
+            }
+
+
+
+
+        });
+
+        btnOpen3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String url = "https://www.linkedin.com/company/memphis-pink-palace-museum";
+
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(url));
+                startActivity(i);
+            }
+
+
+
+
+        });
+
+        btnOpen4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String url = "https://www.youtube.com/user/PinkPalaceMemphis";
+
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(url));
+                startActivity(i);
+            }
+
+
+
+
+        });
+
+        btnOpen5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String url = "https://www.instagram.com/pinkpalacecorfu/";
+
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(url));
+                startActivity(i);
+            }
+
+
+
+
         });
         return view;
 

@@ -72,12 +72,36 @@ public class FragmentOne extends Fragment {
         View view = inflater.inflate(R.layout.events, container, false);
 
 
-        //This is what allows the view to work
-        ImageButton btnOpen = (ImageButton) view.findViewById(R.id.earlylearnerImageButton);
-        btnOpen.setOnClickListener(new View.OnClickListener() {
+        //This section of code is what allows the event pictures to go to the selected image
+        ImageButton btnOpen1 = (ImageButton) view.findViewById(R.id.earlylearnerImageButton);
+        ImageButton btnOpen2 = (ImageButton) view.findViewById(R.id.santalandImageButton);
+        ImageButton btnOpen3 = (ImageButton) view.findViewById(R.id.harrypotterImageButton);
+        ImageButton btnOpen4 = (ImageButton) view.findViewById(R.id.scienceofbeerImageButton);
+        btnOpen1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent in = new Intent(getActivity(), earlyscience.class);
+                startActivity(in);
+            }
+        });
+        btnOpen2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent in = new Intent(getActivity(), santalanding.class);
+                startActivity(in);
+            }
+        });
+        btnOpen3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent in = new Intent(getActivity(), harrypotter.class);
+                startActivity(in);
+            }
+        });
+        btnOpen4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent in = new Intent(getActivity(), beer.class);
                 startActivity(in);
             }
         });

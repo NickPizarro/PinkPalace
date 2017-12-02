@@ -1,5 +1,6 @@
 package com.example.nick.pinkpalace;
 
+import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -107,10 +108,18 @@ public class ppNavigtation extends AppCompatActivity
         } else if (id == R.id.socialmediaItem) {
             fragmentClass = FragmentFive.class;
         } else if (id == R.id.fullwebsiteItem) {
-            fragmentClass = FragmentSix.class;
+
+            String url = "http://www.memphismuseums.org/pink-palace-museum/";
+            Intent i = new Intent(Intent.ACTION_VIEW);
+            i.setData(Uri.parse(url));
+            startActivity(i);
+
+
+
         }
         try {
             fragment = (Fragment) fragmentClass.newInstance();
+
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -121,6 +130,8 @@ public class ppNavigtation extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
+
 
     @Override
     public void onFragmentInteraction(Uri uri) {

@@ -69,12 +69,36 @@ public class FragmentTwo extends Fragment {
         View view = inflater.inflate(R.layout.exhibits, container, false);
 
 
-        //This is what allows the view to work
-        ImageButton btnOpen = (ImageButton) view.findViewById(R.id.enchantedforestImageButton);
-        btnOpen.setOnClickListener(new View.OnClickListener() {
+        //This section is what allows the images in the exhibits to have function
+        ImageButton btnOpen1 = (ImageButton) view.findViewById(R.id.enchantedforestImageButton);
+        ImageButton btnOpen2 = (ImageButton) view.findViewById(R.id.futureImageButton);
+        ImageButton btnOpen3 = (ImageButton) view.findViewById(R.id.naturalImageButton);
+        ImageButton btnOpen4 = (ImageButton) view.findViewById(R.id.culturalImageButton);
+        btnOpen1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent in = new Intent(getActivity(), enchantedforest.class);
+                startActivity(in);
+            }
+        });
+        btnOpen2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent in = new Intent(getActivity(), future.class);
+                startActivity(in);
+            }
+        });
+        btnOpen3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent in = new Intent(getActivity(), natural.class);
+                startActivity(in);
+            }
+        });
+        btnOpen4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent in = new Intent(getActivity(), cultural.class);
                 startActivity(in);
             }
         });
