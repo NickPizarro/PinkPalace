@@ -16,7 +16,7 @@ public class general extends AppCompatActivity {
 
         //Following code adds the action bar with the back button
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle("MEMPHIS MUSEUMS");
+        getSupportActionBar().setTitle("General Information");
 
        
     }

@@ -17,7 +17,7 @@ public class future extends AppCompatActivity {
 
         //Following code adds the action bar with the back button
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle("MEMPHIS MUSEUMS");
+        getSupportActionBar().setTitle("The Future");
     }
 
     //This following code is what adds the ability to go back home when you press the back button

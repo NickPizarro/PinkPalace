@@ -16,17 +16,23 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
 
 public class ppNavigtation extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener, FragmentOne.OnFragmentInteractionListener,
         FragmentTwo.OnFragmentInteractionListener, FragmentThree.OnFragmentInteractionListener, FragmentFour.OnFragmentInteractionListener,
         FragmentFive.OnFragmentInteractionListener,FragmentSix.OnFragmentInteractionListener{
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_pp_navigtation);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+
+
 
 
 
@@ -109,10 +115,11 @@ public class ppNavigtation extends AppCompatActivity
             fragmentClass = FragmentFive.class;
         } else if (id == R.id.fullwebsiteItem) {
 
-            String url = "http://www.memphismuseums.org/pink-palace-museum/";
-            Intent i = new Intent(Intent.ACTION_VIEW);
-            i.setData(Uri.parse(url));
-            startActivity(i);
+
+            Uri uri = Uri.parse( "http://www.memphismuseums.org/pink-palace-museum/" );
+            startActivity( new Intent( Intent.ACTION_VIEW, uri ) );
+
+
 
 
 
@@ -130,6 +137,8 @@ public class ppNavigtation extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+
+
 
 
 
