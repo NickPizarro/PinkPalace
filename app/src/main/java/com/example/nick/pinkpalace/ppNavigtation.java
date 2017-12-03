@@ -120,7 +120,7 @@ public class ppNavigtation extends AppCompatActivity
             startActivity( new Intent( Intent.ACTION_VIEW, uri ) );
 
 
-
+        return true;
 
 
         }
