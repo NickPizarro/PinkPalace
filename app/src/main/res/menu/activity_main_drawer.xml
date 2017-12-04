@@ -10,7 +10,6 @@
         <item
             android:id="@+id/eventsItem"
             android:icon="@drawable/events_black"
-            android:fillColor="#FF000000"
             android:title="EVENTS"/>
 
 
