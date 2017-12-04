@@ -1,38 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
 
 
     <group android:checkableBehavior="single">
 
+
         <item
             android:id="@+id/eventsItem"
-            android:icon="@drawable/eventsicon"
+            android:icon="@drawable/events_black"
+            android:fillColor="#FF000000"
             android:title="EVENTS"/>
 
 
         <item
             android:id="@+id/exhibitsItem"
-            android:icon="@drawable/exhibitsicon"
+            android:icon="@drawable/exhibits_black"
             android:title="EXHIBITS" />
         <item
             android:id="@+id/general"
-            android:icon="@drawable/generalicon"
+            android:icon="@drawable/general_black"
             android:title="GENERAL" />
         <item
             android:id="@+id/aboutusItem"
-            android:icon="@drawable/ic_info_black_24dp"
+            android:icon="@drawable/info_black"
             android:title="ABOUT US" />
     </group>
 
-    <item android:title="Communicate">
+    <item android:title="@string/Communication"
+        android:textColor = "#000">
         <menu>
             <item
                 android:id="@+id/socialmediaItem"
-                android:icon="@drawable/socialmediaicon"
+                android:icon="@drawable/socialmedia_black"
                 android:title="SOCIAL MEDIA" />
             <item
                 android:id="@+id/fullwebsiteItem"
-                android:icon="@drawable/fullwebsiteicon"
+                android:icon="@drawable/fullwebsite_black"
                 android:title="FULL WEBSITE" />
 
         </menu>

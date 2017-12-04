@@ -13,8 +13,7 @@
         android:layout_height="@dimen/app_bar_height"
         android:background="@drawable/pinkpalacelogo"
         android:fitsSystemWindows="true"
-        android:theme="@style/colorPrimaryLight">
-
+        android:theme="@style/AppTheme.NoActionBar">
         <android.support.design.widget.CollapsingToolbarLayout
             android:id="@+id/toolbar_layout"
             android:layout_width="match_parent"

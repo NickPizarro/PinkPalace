@@ -95,7 +95,7 @@
         <activity
             android:name=".ppNavigtation"
             android:alwaysRetainTaskState="true"
-            android:theme="@style/Theme.AppCompat.NoActionBar"></activity>
+            android:theme="@style/Theme.AppCompat.Light"></activity>
 
 
     </application>
