@@ -12,6 +12,15 @@
         android:background="#CC4082">
 
 
+        <ImageButton
+            android:id="@+id/pinkpImageButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:paddingLeft="205dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/pinkpalace" />
+
         <TextView
             android:id="@+id/pinkpalanceTextView"
             android:layout_width="wrap_content"
@@ -25,16 +34,6 @@
             android:textStyle="bold|italic"
             android:background="@null"/>
 
-        <ImageButton
-            android:id="@+id/pinkpImageButton"
-            android:layout_width="205dp"
-            android:layout_height="match_parent"
-            android:layout_gravity="right"
-            android:cropToPadding="false"
-            android:defaultFocusHighlightEnabled="false"
-            android:scaleType="centerCrop"
-            android:src="@drawable/pinkpalace" />
-
 
     </FrameLayout>
     <FrameLayout android:layout_width="match_parent"
@@ -46,9 +45,10 @@
             android:id="@+id/ctiImageButton"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:background="@null"
             android:paddingLeft="205dp"
-            android:src="@drawable/cti"
-            android:background="@null"/>
+            android:scaleType="centerCrop"
+            android:src="@drawable/cti" />
 
         <TextView
             android:id="@+id/ctiTextView"
@@ -73,8 +73,9 @@
             android:id="@+id/autozoneImageButton"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:paddingLeft="205dp"
             android:background="@null"
+            android:paddingLeft="205dp"
+            android:scaleType="centerCrop"
             android:src="@drawable/autozone" />
 
         <TextView
@@ -100,8 +101,9 @@
             android:id="@+id/natureImageButton"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:paddingLeft="205dp"
             android:background="@null"
+            android:paddingLeft="205dp"
+            android:scaleType="centerCrop"
             android:src="@drawable/nature" />
 
         <TextView
@@ -126,8 +128,9 @@
             android:id="@+id/coonImageButton"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:paddingLeft="205dp"
             android:background="@null"
+            android:paddingLeft="205dp"
+            android:scaleType="centerCrop"
             android:src="@drawable/coon" />
 
         <TextView
@@ -152,8 +155,9 @@
             android:id="@+id/historicImageButton"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:paddingLeft="205dp"
             android:background="@null"
+            android:paddingLeft="205dp"
+            android:scaleType="centerCrop"
             android:src="@drawable/historic" />
 
         <TextView
