@@ -1,4 +1,4 @@
-<resources>
+<resources xmlns:android="http://schemas.android.com/tools">
     <string name="app_name">Pink Palace</string>
     <string name="backgroundofpinkpalace">BackgroundOfPinkPalace</string>
     <string name="title_activity_sidebar">SidebarActivity</string>
@@ -78,6 +78,11 @@
 
    //This line of code is optional of the settings on the actionbar
     <string name="settings">Settings</string>
+
+
+    //String name for the events options
+    <string name="earlyLearnerText">EARLY \nSCIENCE \nLEARNER
+    </string>
 
 
 
