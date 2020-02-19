@@ -24,10 +24,9 @@ public class pinkpalace extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.pinkpalace);
 
-        VideoView videoview = (VideoView) findViewById(R.id.videoview);
+
         Uri uri = Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.pp);
-        videoview.setVideoURI(uri);
-        videoview.start();
+
 
         //This code is what allows the app to go to the next view when clicked
         Button next = findViewById(R.id.exploreButton);

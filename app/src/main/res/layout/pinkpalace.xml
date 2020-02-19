@@ -7,44 +7,43 @@
     android:layout_height="match_parent">
 
 
-    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <FrameLayout
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" >
+        android:layout_alignParentTop="false">
 
-
-        <VideoView
-            android:id="@+id/videoview"
-            android:layout_width="1200dp"
-            android:layout_height="match_parent" />
-
+        <ImageView
+            android:id="@+id/pinkpalacelogoImageView"
+            android:layout_width="match_parent"
+            android:layout_height="531dp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="#d63285"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/palace_landing" />
 
         <Button
             android:id="@+id/exploreButton"
-            android:layout_width="wrap_content"
+            android:layout_width="238dp"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true"
             android:layout_gravity="bottom|center_horizontal"
             android:layout_marginBottom="68dp"
-            android:background="@android:color/background_light"
+            android:background="@drawable/explorebutton"
             android:gravity="center"
-
-            android:text="EXPLORE"
-            android:textColor="#000000" />
+            android:text="EXPLORE THE PALACE"
+            android:textColor="#d63285"
+            android:textStyle="bold" />
 
         <ImageView
-            android:id="@+id/pinkpalacelogoImageView"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:paddingTop="10dp"
-            android:scaleType="fitStart"
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
             app:srcCompat="@drawable/pinkpalacelogo" />
 
-    </FrameLayout>
 
+    </FrameLayout>
 
 
 </RelativeLayout>
